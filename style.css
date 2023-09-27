@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.sub-container{
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upper{
+    flex-grow: 1;
+    margin-top: 20px;
+}
+.upper h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.password_div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.charOption{
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    margin-top: 10px;
+}
+.lower button{
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+}
+#Password{
+    width: 370px;
+    height: 50px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;  
+    font-size: 35px;  
+}
